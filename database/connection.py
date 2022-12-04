@@ -4,6 +4,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import BaseSettings, BaseModel
 from models.todo import Todo
 
+
 class Settings(BaseModel):
     DATABASE_URL = Optional[str]= None
 
